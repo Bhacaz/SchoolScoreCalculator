@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id='@+id/input_view'
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+ 
+    
+    
+    <EditText
+        android:id="@+id/pondeInput"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:hint="Ponderation /100"
+        android:inputType="number"/>
+    
+    
+    
+    
+
+    <EditText
+        android:id="@+id/resultInput"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pondeInput"
+        android:hint="Resultat /100"
+        android:inputType="number"/>
+
+
+    
+ 
+</RelativeLayout>
